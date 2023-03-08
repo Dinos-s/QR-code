@@ -10,22 +10,22 @@ body{
 }
 
 .container{
-    position: absolute;
+    position: fixed;
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
     height: 900px;
-    top: 15%;
+    /* top: 15%; */
     
     background: hsl(220, 15%, 55%);
 }
 
 .card{
-    position: absolute;
+    position: fixed;
     width: 320px;
     height: 497px;
-    left: 560px;
-    top: 152px;
+    left: 510px;
+    top: 154px;
     
     background: hsl(0, 0%, 100%);
     border-radius: 20px;
@@ -76,7 +76,7 @@ p{
         position: absolute;
         width: 321px;
         height: 498px;
-        left: 28px;
+        left: 25px;
         top: 85px;
 
         background: hsl(0, 0%, 100%);
